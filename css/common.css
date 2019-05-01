@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width:100%;
+}
+
+body{
+    font: 16px/1.5em Arial;
+    color: #f06d6a;
+    position: relative;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: #f06d6a;
+}
+ul{
+    list-style: none;
+}
