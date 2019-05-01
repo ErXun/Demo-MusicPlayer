@@ -58,7 +58,7 @@ $('.music-action #previous').onclick = function(){
 //获取音乐数据
 function getMusicList(callback){
     var xhr = new XMLHttpRequest()
-    xhr.open("GET","https://github.com/ErXun/Demo-MusicPlayer/music.json",true)
+    xhr.open("GET","https://erxun.github.io/Demo-MusicPlayer/music.json",true)
     xhr.onload = function(){
         if((xhr.status>=200 && xhr.status<300)||xhr.status ===304){
             callback(JSON.parse(this.responseText))
